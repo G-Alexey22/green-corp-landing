@@ -363,6 +363,9 @@ footer {
 }
 
 @media (max-width: 720px) {
+  body {
+    overflow-x: hidden;
+  }
   header {
     padding: 10px;
   }
@@ -442,7 +445,7 @@ footer {
   }
   .promo {
     flex-direction: column-reverse;
-    margin: 0px;
+    padding: 0px;
   }
   .promo__right {
     padding-left: 50px;
@@ -451,11 +454,9 @@ footer {
     padding-bottom: 10px;
   }
   .promo__image {
-    background-color: #23a030;
+    background-image: url("img/promo.jpg");
     height: 500px;
     width: auto;
-    flex-shrink: 0;
-    margin: 0px;
   }
 }
 
