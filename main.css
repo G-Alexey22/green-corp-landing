@@ -312,8 +312,8 @@ footer {
   background-color: #dd5f26;
   padding-left: 60px;
   padding-right: 60px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 160px;
+  padding-bottom: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,6 +344,7 @@ footer {
   padding-right: 30px;
   padding-left: 30px;
   font-weight: 600;
+  box-shadow: 0 16px 36px rgb(16 122 28 / 30%);
 }
 .promo__button i {
   font-size: 15px;
