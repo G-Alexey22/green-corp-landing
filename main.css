@@ -57,6 +57,7 @@ button {
   align-items: center;
   padding-top: 115px;
   padding-bottom: 115px;
+  position: relative;
 }
 .about h1 {
   font-size: 70px;
@@ -361,6 +362,12 @@ footer {
   line-height: 22px;
   font-weight: 500;
   opacity: 0.8;
+}
+.orb-canvas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
 @media (max-width: 720px) {
